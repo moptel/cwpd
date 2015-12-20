@@ -61,7 +61,7 @@ def find_wp(q,wpcontent):
 				plugin=q.get(True,2).split(':')
 			except:
 				return
-			head={'X-Forwarded-For' : random_ip(),'User-agent' : random_agent(),'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8','Accept-Language': 'en-US;q=0.5,en;q=0.3','Accept-Encoding': 'gzip, deflate','DNT': '1'}
+			head={'X-Forwarded-For' : random_ip()+','+random_ip(),'User-agent' : random_agent(),'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8','Accept-Language': 'en-US;q=0.5,en;q=0.3','Accept-Encoding': 'gzip, deflate','DNT': '1'}
 			req=urllib2.Request(target+"/"+wpcontent+plugin[0],headers=head)
 			maxtries=0
 			#Intentamos hacer la peticion
