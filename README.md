@@ -1,6 +1,6 @@
 # cwpd
 
-Crude Wordpress Plugin Detector is a very basic WP plugin detector. It searches for the readme.txt file which is present in most WP plugins and that is rarely deleted by webmarsters.
+Crude Wordpress Plugin Detector is a very basic WP plugin detector. It searches for the readme.txt file which is present in most WP plugins and that is rarely deleted by webmasters.
 
 #How to use it
 
