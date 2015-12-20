@@ -1,5 +1,8 @@
 # cwpd
-Crude WordPress Plugin Detector
+
+Crude Wordpress Plugin Detector is a very basic WP plugin detector. It searches for the readme.txt file which is present in most WP plugins and that is rarely deleted by webmarsters.
+
+#How to use it
 
 First of all you need to create the plugin list. You can do this by using listmaker.py which will create a list of the 1000 most popular plugins in the format used by cwpd. You can find more plugins by modifiying the script so that it checks more than the first 50 pages from the popular WordPress plugins list
 
